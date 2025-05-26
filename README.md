@@ -71,6 +71,5 @@ Revanth Pattipati
 
 revanthpp@gmail.com
 
-https://linkedin.com/in/revanthpp
-
+www.linkedin.com/in/revanthp
 
