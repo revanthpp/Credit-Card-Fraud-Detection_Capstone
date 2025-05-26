@@ -1,8 +1,10 @@
-Credit Card Fraud Detection
-Author: Revanth Pattipati
+**Credit Card Fraud Detection**
+
+**Author: Revanth Pattipati**
 
 
 **Executive Summary**
+
 **Problem Overview**
 Fraudulent transactions are rare but highly costly. With less than 0.2% of records labeled as fraud, this problem requires models that can detect anomalies with high recall and minimal false negatives. The goal was to evaluate multiple classification models, compare their performance on this imbalanced dataset, and draw actionable insights from the best-performing model.
 
@@ -32,7 +34,9 @@ I trained and compared four supervised classification models:
 - Logistic Regression had higher false positives (FP = 113), making it less optimal despite good F1
 - Decision Tree offered a strong F1 but was not as robust overall
 - Naive Bayes had the highest FP rate among all, despite 100% precision, indicating a possible imbalance sensitivity
-Feature Insights
+  
+**Feature Insights**
+  
 **Top features by importance (from Random Forest):**
 - id (likely a leakage risk and should be removed in future versions)
 - V14, V10, V12, V4 — all highly predictive of fraud, consistent with correlation findings
@@ -45,8 +49,9 @@ Feature Insights
 - Correlation matrix highlighted key fraud predictors: V14, V4, V11, scaled_amount
 - Pairplots revealed good class separability in selected features
 
-**Next Steps & Recommendations
-Short-Term Improvements**
+**Next Steps & Recommendations**
+
+**Short-Term Improvements**
 - Remove id field from feature set in future iterations
 - Perform GridSearchCV to fine-tune Random Forest hyperparameters
 - Implement SMOTE/ADASYN or undersampling for robust balancing
@@ -61,8 +66,11 @@ Short-Term Improvements**
 - Dataset: Kaggle - Credit Card Fraud Detection
 
 **Contact**
+
 Revanth Pattipati
+
 revanthpp@gmail.com
+
 https://linkedin.com/in/revanthpp
 
 
